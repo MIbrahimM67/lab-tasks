@@ -149,3 +149,13 @@ figure {
 .Section1 ol li a:hover {
     background-color: red;
 }
+.Footer {
+    position:fixed;
+    bottom: 0;
+background-color: black ;
+color: aliceblue;
+text-align: center;
+padding: 10px;
+width: 100%;
+
+}
