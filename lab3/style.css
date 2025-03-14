@@ -122,6 +122,10 @@ flex-direction: column;
     font-family: var(--secondary-font);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
+    box-shadow: 5px 5px 12px gray;
+    margin-right: 17%;
+    border-radius: 20px;
+    padding: 5px;
 }
 h2 {
     font-family: var(--primary-font);
