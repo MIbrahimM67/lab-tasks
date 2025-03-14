@@ -1,0 +1,209 @@
+
+:root {
+    --primary-font: 'Arial', sans-serif;
+    --secondary-font: 'Georgia', serif;
+    --text-color: #333333;
+    --heading-color: #1E293B;
+    --font-size: 16px;
+    --heading-size: 36px;
+    --line-height: 1.6;
+    --letter-spacing:2px;
+}
+
+body {
+    background-color: #F3F4F6;
+}
+.header
+{
+    margin-left: 15%;
+  background-color:#1E293B;
+  display: flex;
+  margin-right: auto;
+  color:#F8F9FA;
+}
+.follower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follower > div > img {
+   
+    width: 50px;
+    height: 50px;
+}
+.navbar {
+    position: fixed; 
+top: 0;
+left:0;
+width: 15%;
+min-width: 10%;
+height: 100vh; 
+padding-top: 25px;
+background: #374151;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+.navbar a {
+    display: block;
+    color: #333333;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    border: 5px;
+    border-radius: 2px 2px 2px 2px;
+    font-size: 1vw;
+    background-color: #00F5D4;
+    width: 18%; 
+    padding: 10px;
+    margin: 10px 0;
+}
+.navbar a:hover 
+{
+    background-color: #00A8E8;
+     margin: 10px 10px 10px 10px;
+     font-size: 20px;
+     width :25%;
+     transition: all ease-in-out 0.2s;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#Logotext{
+    text-align: right;
+    font-size: 25px;
+    padding-top: 20px;
+    justify-content: right;
+    padding-left: 40%;
+    
+
+}
+#imge {
+    width: 100px;
+    height: 105px;
+    overflow: hidden;
+    margin-left: 5px;
+    background-size: contain;
+    display: inline;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px 20px 20px 20px;
+
+    
+}
+#imge:hover {
+    background-color: blanchedalmond;
+    margin: 10px 10px 10px 10px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#Heading{
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    align-items: center;
+
+
+}
+.Content {
+    margin-left: 17%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E5E7EB;
+    color:var(--heading-color);
+    font-family: var(--secondary-font);
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+}
+h2 {
+    font-family: var(--primary-font);
+    font-size: var(--heading-size);
+    font-weight: 20px;
+}
+#techimage {
+    width: 80%;
+    height: 40%;
+}
+#Profile {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+     border-style: solid;
+    border-width: 10px;
+    border-radius: 15px;
+    border-color: rgb(255, 149, 11);
+    background-color: rgb(231, 126, 5);
+    width: 30%;
+    min-width: 250px; 
+    max-width: 400px; 
+    box-shadow: 10px 10px rgb(202, 115, 0);
+    position: relative;
+    height: auto;
+    padding: 15px; 
+    
+}
+#pp {
+
+    width: 100%; 
+    height: auto; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#pp :hover
+{
+    background-color: rgb(204, 122, 0);
+    margin: 10px 10px 10px 10px;
+    border-radius: 300px 300px 300px 300px; 
+    transition: all ease-in-out 0.5s;
+    margin: 5px;
+}
+#pp >img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover; 
+    border-radius: 50%; 
+    border-style: solid;
+    border-color: #00A8E8;
+
+
+}
+.Card {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.Card:hover{
+    background-color:#374151;
+    margin: 10px 10px 50px 10px;
+    transition: all ease-in-out 0.5s;
+}
+.Footer {
+    background-color: #1E293B;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    
+
+}
+#time
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+}
