@@ -20,6 +20,7 @@ body {
   display: flex;
   margin-right: auto;
   color:#F8F9FA;
+  box-shadow: 10px 10px 18px rgba(30, 40, 60, 0.6);
 }
 .follower {
     display: flex;
@@ -151,6 +152,7 @@ h2 {
     position: relative;
     height: auto;
     padding: 15px; 
+    box-shadow: 5px 5px 12px rgba(30, 40, 60, 0.6);
     
 }
 #pp {
