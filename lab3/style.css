@@ -21,6 +21,7 @@ body {
   margin-right: auto;
   color:#F8F9FA;
   box-shadow: 10px 10px 18px rgba(30, 40, 60, 0.6);
+border-radius: 20px 20px 20px 20px;
 }
 .follower {
     display: flex;
@@ -46,6 +47,8 @@ align-items: center;
 justify-content: center;
 display: flex;
 flex-direction: column;
+box-shadow: 5px 5px 12px #1E293B;
+border-radius: 0px 20px 20px 20px;
 }
 .navbar a {
     display: block;
@@ -60,6 +63,7 @@ flex-direction: column;
     width: 18%; 
     padding: 10px;
     margin: 10px 0;
+    box-shadow: 5px 5px 12px #026391;
 }
 .navbar a:hover 
 {
