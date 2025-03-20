@@ -15,7 +15,14 @@ body {
     animation: gradientFlow 15s ease infinite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.TableTitle {
+    background: linear-gradient(90deg, #ffffff, #72d0c3);
+    margin-bottom: 10px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .Header
  {
