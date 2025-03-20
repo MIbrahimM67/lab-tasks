@@ -1,0 +1,164 @@
+.Header > img
+ {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(100deg, #f5fdfd, #6BA3BE, #0a423f);
+    background-size: 400% 400%;
+    animation: gradientFlow 15s ease infinite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.Header
+ {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #031716;
+    color: #6BA3BE;
+    box-shadow: 0 4px 8px 8px rgba(12, 150, 156, 0.3);
+    height: auto;
+    overflow: auto;
+}
+
+.Header p
+ {
+    font-size: 1.8vw;
+    max-width: fit-content;
+}
+
+.Table 
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 30px auto;
+}
+
+caption 
+{
+    color: #274D60;
+    caption-side: top;
+
+}
+table, th, td 
+{
+    text-align: center;
+    border: #031716 2px solid;
+    font-size: 1.7vw;
+    border-radius: 12px;
+    
+
+
+}
+th,td 
+{
+    padding: 10px 15px;
+    text-align: center;
+
+}
+thead 
+{
+    background-color: #0A7075;
+}
+thead th 
+{
+    color: #6BA3BE;
+}
+tbody tr:nth-child(even)
+ {
+    background-color: #2e8a8f94; 
+}
+
+tbody tr:nth-child(odd)
+ {
+    background-color: #ffffff; 
+}
+
+table
+ {
+    overflow: scroll;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #032F30;
+    box-shadow: 8px 8px 5px 5px rgba(12, 150, 156, 0.2);
+}
+
+.scholarshipAccept 
+{
+
+    background-color: green;
+}
+
+tbody tr
+{
+    transition: all 0.3s ease;
+}
+tbody tr:hover 
+{
+    transform: scale(1.08);
+    box-shadow: 0 4px 15px rgba(12, 150, 156, 0.4); 
+    border-radius: 5px;
+    background-color: #0A7075;
+}
+
+form 
+{
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    background-color:#0A7075;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 6px 6px 5px 5px #0a423f;
+    max-width: 800px;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+    margin:20px;
+    
+}
+form:hover 
+{
+    transform: scale(1.08) rotate3d(4, 4, 2, 10deg);
+  }
+.form
+ {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+input[type="submit"] 
+{
+    background-color: #6BA3BE;
+    color: white;
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 5px 5px #0A7075;
+  }
+input[type="submit"]:hover {
+    background-color: #031716;
+    transform: scale(1.58);
+  }
+legend {
+    color: #031716;
+    font-weight: bold;
+  }
+
+  input ,select {
+    width: 100%;
+    box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #6BA3BE;
+  border-radius: 8px;
+  }
