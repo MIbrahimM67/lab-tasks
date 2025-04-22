@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Technology</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans">
-  <div class="grid min-h-screen grid-cols-[250px_1fr] grid-rows-[auto_auto_auto_auto] grid-areas-layout md:grid-cols-1">
 
-    <nav class="grid-in-nav sticky top-0 flex h-screen flex-col items-center justify-center bg-gray-700 p-5 shadow-lg md:hidden">
-      <a href="#Heading" class="mb-4 w-4/5 rounded bg-teal-400 px-4 py-2 text-center text-gray-800 shadow-md transition hover:bg-sky-400 hover:w-[90%]">Intro</a>
-      <a href="#Profile" class="w-4/5 rounded bg-teal-400 px-4 py-2 text-center text-gray-800 shadow-md transition hover:bg-sky-400 hover:w-[90%]">Profile</a>
+<body class="bg-gray-100 font-sans">
+  <div class="grid min-h-screen grid-cols-[100px_1fr] grid-rows-[auto_auto_auto_auto] grid-areas-layout md:grid-cols-1">
+
+    <nav
+      class="grid-in-nav sticky top-0 2xl:flex  h-screen flex-col items-center justify-center bg-gray-700 p-5 shadow-lg hidden ">
+      <a href="#Heading"
+        class="mb-4 w-[60%]  rounded bg-teal-400 px-4 py-2 text-center text-gray-800 shadow-md transition hover:bg-sky-400 hover:w-[70%] transition-all duration-300 ease-in-out hover:scale-105">Intro</a>
+      <a href="#Profile"
+        class=" w-[60%] rounded bg-teal-400 px-4 py-2 text-center text-gray-800 shadow-md transition hover:bg-sky-400 hover:w-[70%] transition-all duration-300 ease-in-out hover:scale-105">Profile</a>
     </nav>
 
-    <header class="grid-in-header flex items-center justify-start gap-4 rounded-b-2xl bg-gray-800 p-5 text-white shadow-lg flex-col md:items-start">
-      <img id="imge" src="logo.jpg" alt="logo here" class="h-[105px] w-[100px] rounded-xl transition duration-300 hover:rounded-3xl hover:bg-amber-100" />
+    <header
+      class="grid-in-header flex  justify-start gap-4 rounded-b-2xl bg-gray-800 p-5 text-white shadow-lg flex-col md:items-start">
+      <img id="imge" src="logo.jpg" alt="logo here"
+        class="h-[105px] w-[100px] rounded-xl transition duration-300 hover:rounded-3xl hover:bg-amber-100" />
       <p id="Logotext" class="text-xl md:ml-0">TechGeek</p>
     </header>
 
     <main class="grid-in-content m-5 rounded-2xl bg-gray-200 p-10 font-serif text-slate-800 shadow-md">
       <h1 id="Heading" class="text-4xl font-sans mb-4">Why Tech Industry is in Chaos?</h1>
       <h2 class="text-3xl font-sans mt-6 mb-2">History</h2>
-      <p>The history of technology encompasses the invention of tools and techniques by humans, from simple stone tools to complex genetic engineering and information technology.</p>
+      <p>The history of technology encompasses the invention of tools and techniques by humans, from simple stone tools
+        to complex genetic engineering and information technology.</p>
       <p class="mt-4 font-bold">The Following are the Peak Golden breakthroughs in the tech:</p>
       <ul class="list-disc list-inside">
         <li>AI Revolution</li>
@@ -34,7 +42,8 @@
         <figcaption class="mt-2">--Tech is Booming</figcaption>
       </figure>
       <h2 class="text-3xl font-sans mt-6 mb-2">Modern Day Tech</h2>
-      <p><strong>Artificial intelligence</strong> refers to technology that enables computers and machines to simulate human learning, problem-solving, creativity, and autonomy.</p>
+      <p><strong>Artificial intelligence</strong> refers to technology that enables computers and machines to simulate
+        human learning, problem-solving, creativity, and autonomy.</p>
       <h2 class="text-3xl font-sans mt-6 mb-2">Future</h2>
       <p>Future of Tech is a tool to help you understand and define what information technology is today.</p>
       <div id="time" class="mt-4 flex justify-end">
@@ -42,16 +51,18 @@
       </div>
     </main>
 
-    <section id="Profile" class="grid-in-card mx-auto mb-4 w-11/12 max-w-md rounded-xl border-[10px] border-orange-400 bg-orange-500 p-8 text-white shadow-lg text-center transition duration-500 hover:-translate-y-1 hover:bg-gray-700">
+    <section id="Profile"
+      class="grid-in-card mx-auto mb-4 w-[90%] max-w-md rounded-xl border-[10px] p-[60px] border-orange-400 bg-orange-500 p-8 text-white shadow-lg text-center transition duration-500 hover:-translate-y-1 hover:bg-gray-700">
       <div class="follower mb-4 flex items-center justify-center gap-3">
-        <h2 class="text-2xl">1 Follower</h2>
+        <h2 class="text-2xl font-bold">1 Follower</h2>
         <img src="follower.png" alt="follow icon" class="h-12 w-12" />
       </div>
       <div id="pp" class="flex justify-center">
-        <img src="ppf.jfif" alt="profile picture" class="h-36 w-36 rounded-full border-4 border-sky-400 object-cover shadow-md" />
+        <img src="ppf.jfif" alt="profile picture"
+          class="h-36 w-36 rounded-full border-4 border-sky-400 object-cover shadow-md" />
       </div>
       <div class="mt-4">
-        <h3 class="text-xl font-semibold">Muhammad Ibrahim</h3>
+        <h3 class="text-xl font-bold">Muhammad Ibrahim</h3>
         <p>I'm Ibrahim, Computer Science Student.<br />I'm a gamer and Professional Video Editor.</p>
       </div>
     </section>
@@ -73,6 +84,7 @@
           "footer";
       }
     }
+
     @media (max-width: 450px) {
       .grid-areas-layout {
         grid-template-areas:
@@ -81,10 +93,12 @@
           "card"
           "footer";
       }
+
       nav {
         display: none;
       }
     }
+
     .grid-areas-layout {
       grid-template-areas:
         "nav header"
@@ -92,11 +106,27 @@
         "nav card"
         "nav footer";
     }
-    .grid-in-nav { grid-area: nav; }
-    .grid-in-header { grid-area: header; }
-    .grid-in-content { grid-area: content; }
-    .grid-in-card { grid-area: card; }
-    .grid-in-footer { grid-area: footer; }
+
+    .grid-in-nav {
+      grid-area: nav;
+    }
+
+    .grid-in-header {
+      grid-area: header;
+    }
+
+    .grid-in-content {
+      grid-area: content;
+    }
+
+    .grid-in-card {
+      grid-area: card;
+    }
+
+    .grid-in-footer {
+      grid-area: footer;
+    }
   </style>
 </body>
+
 </html>
